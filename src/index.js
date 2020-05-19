@@ -14,15 +14,25 @@ document.body.style.margin = "0";
 
 const content = document.querySelector('#content');
 content.appendChild(fillHome());
+homeButton();
+contactButton();
 
+function homeButton() {
 const home = document.querySelector('#home');
-home.addEventListener('click', () => {
-    deleteElements();
-    content.appendChild(fillHome());
-});
+    home.addEventListener('click', () => {
+        deleteElements();
+        content.appendChild(fillHome());
+        homeButton();
+        contactButton();
+    });
+}
 
-const contact = document.querySelector('#contact');
-contact.addEventListener('click', () => {
-    deleteElements();
-    content.appendChild(fillContact());
-});
+function contactButton() {
+    const contact = document.querySelector('#contact');
+    contact.addEventListener('click', () => {
+        deleteElements();
+        content.appendChild(fillContact());
+        homeButton();
+        contactButton();
+    });
+}
