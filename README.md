@@ -1,1 +1,1 @@
-# restaurant-page
+My Restaurant Page from [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page)
