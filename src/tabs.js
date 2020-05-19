@@ -17,7 +17,7 @@ function makeTabList() {
     home.style.padding = "5px";
     home.style.fontSize = "17px";
     home.style.color = "white";
-    home.style.fontFamily = "'Roboto', sans-serif"
+    home.style.fontFamily = "'Jost', sans-serif"
     home.style.border = "1px solid white";
     home.style.borderRadius = "1px";
     home.style.backgroundColor = "#1c1c1c";
@@ -38,7 +38,7 @@ function makeTabList() {
     contact.style.padding = "5px";
     contact.style.fontSize = "17px";
     contact.style.color = "white";
-    contact.style.fontFamily = "'Roboto', sans-serif"
+    contact.style.fontFamily = "'Jost', sans-serif"
     contact.style.border = "1px solid white";
     contact.style.borderRadius = "1px";
     contact.style.backgroundColor = "#1c1c1c";
@@ -60,7 +60,7 @@ function makeTabList() {
     menu.style.padding = "5px";
     menu.style.fontSize = "17px";
     menu.style.color = "white";
-    menu.style.fontFamily = "'Roboto', sans-serif"
+    menu.style.fontFamily = "'Jost', sans-serif"
     menu.style.border = "1px solid white";
     menu.style.borderRadius = "1px";
     menu.style.backgroundColor = "#1c1c1c";

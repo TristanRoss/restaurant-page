@@ -7,6 +7,7 @@ function makeContainer() {
     container.style.color = "white";
     container.style.textShadow = "1px 1px 5px black";
     container.style.textAlign = "center";
+    container.style.fontFamily = "'Jost', sans-serif";
 
     return container;
 }
